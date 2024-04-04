@@ -1,0 +1,54 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+}
+
+.inserirItem{
+    width: 40vw;
+    height:20vw;
+    display: flex;
+    flex-direction: column; 
+    gap: 1.5vw;
+    margin-top:8vw; 
+    margin-right: 3vw;
+}
+
+
+
+#enviar{
+    width: 8vw;
+}
+
+.textoEnviar{
+    width: 70%;
+}
+
+#areaEnvio{
+    display: flex; 
+    gap: 2vw;
+}
+.item{
+    background-color:lightgreen;
+    width:40vw;
+    height:4vw;
+    border-radius:1vw;
+    display:flex;
+}
+#itens{
+    margin-top: 1vw;
+    width: 45vw;
+    overflow-x: auto;
+    overflow-y: auto;
+
+
+}
+.card{
+    min-width: 30vw;
+    max-width: 50vw;
+    margin-top: 1vw;
+
+}
